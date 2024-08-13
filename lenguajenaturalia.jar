@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ProcesadorDeLenguajeNatural {
+    public List<String> tokenizar(String texto) {
+        // Implementar tokenización
+    }
+
+    public void partOfSpeechTagging(List<String> tokens) {
+        // Implementar part-of-speech tagging
+    }
+
+    public void analisisSintactico(List<String> tokens) {
+        // Implementar análisis sintáctico
+    }
+
+    public void analisisSemantico(List<String> tokens) {
+        // Implementar análisis semántico
+    }
+
+    public void generarRespuesta(List<String> tokens) {
+        // Implementar generación de respuesta
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese una frase: ");
+        String texto = scanner.nextLine();
+
+        ProcesadorDeLenguajeNatural procesador = new ProcesadorDeLenguajeNatural();
+        List<String> tokens = procesador.tokenizar(texto);
+
+        procesador.partOfSpeechTagging(tokens);
+        procesador.analisisSintactico(tokens);
+        procesador.analisisSemantico(tokens);
+        procesador.generarRespuesta(tokens);
+    }
+}
