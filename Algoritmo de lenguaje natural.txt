@@ -1,0 +1,7 @@
+El algoritmo de procesamiento de lenguaje natural, cómo funciona:
+
+- Tokenización: divido el texto en palabras y símbolos individuales llamados tokens.
+- Part-of-speech tagging: identifico la categoría gramatical de cada token (sustantivo, verbo, adjetivo, etc.).
+- Análisis sintáctico: examino la estructura gramatical de la oración para entender la relación entre los tokens.
+- Análisis semántico: interpreto el significado de los tokens y la oración en su conjunto.
+- Generación de respuesta: utilizo los resultados del análisis para generar una respuesta coherente y relevante.
